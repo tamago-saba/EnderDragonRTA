@@ -1,0 +1,11 @@
+name: EnderDragonRTA
+version: '${project.version}'
+main: com.github.tsuoihito.enderdragonrta.EnderDragonRTA
+api-version: 1.19
+authors: [ tsuoihito ]
+commands:
+  rta:
+    permission: enderdragonrta.command.rta
+permissions:
+  enderdragonrta.command.rta:
+    default: op
